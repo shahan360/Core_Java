@@ -1,8 +1,8 @@
 class Shape{
     int l,b;
     public Shape(int l, int b){
-        this.l = l;
-        this.b = b;
+        this.l=l;
+        this.b=b;
     }
     public void showDimension(){
         System.out.println("Length: "+l+" Breadth: "+b);
