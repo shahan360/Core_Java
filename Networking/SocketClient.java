@@ -5,7 +5,7 @@ public class SocketClient { //SocketClient class is created
         try{ // try block is used to handle the exception
             System.out.println("Sending the connection request to the server..."); //print the message that connection request is sent to the server
             Thread.sleep(5000); //Thread.sleep() method is used to stop the execution of the program for 5000 milliseconds
-            Socket s = new Socket("localhost", 2001); //Socket class is used to create client side socket and localhost is the IP address of the server and 2000 is the port number
+            Socket s = new Socket("localhost", 2001); //Socket class is used to create client side socket and localhost is the IP address of the server and 2001 is the port number
             Thread.sleep(2000); //Thread.sleep() method is used to stop the execution of the program for 2000 milliseconds
             System.out.println("Request granted, sending message to the server..."); //print the message that request is granted and sending the message to the server
             Thread.sleep(5000); //Thread.sleep() method is used to stop the execution of the program for 5000 milliseconds
