@@ -42,12 +42,12 @@ public class StudentDemo1 {
         int i;
         for(i=0;i<s.length;i++)
         {
-            s[i] = new Student(); // Create an object of the Student class
-            s[i].setData(); // Call the setData() method to set the student's details
+            s[i] = new Student(); // Create an object of the Student class for ith element of the array
+            s[i].setData(); // Call the setData() method to set the student's details for ith element of the array
         }
         for(i=0;i<s.length;i++)
         {
-            s[i].getData(); // Call the getData() method to get the student's details
+            s[i].getData(); // Call the getData() method to get the student's details for ith element of the array
         }
     }
 }
