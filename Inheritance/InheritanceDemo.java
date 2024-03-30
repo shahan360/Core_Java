@@ -22,7 +22,7 @@ class Rectangle extends Shape{ // This is the child class of Shape class with ar
 class Cuboid extends Shape{ // This is the child class of Shape class with volume() as its method
     int h; // Only attribute of the Cuboid class as length and breadth are inherited from the Shape class
     public Cuboid(int l,int b,int h){ //Cuboid method taking length, breadth and height as intake
-        super(l,b); //
+        super(l,b); 
         this.h=h;
     }
     public void showDimension(){
