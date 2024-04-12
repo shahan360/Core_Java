@@ -125,5 +125,3 @@ This repository is licensed under the [MIT License](https://opensource.org/licen
 ## Acknowledgements
 
 Special thanks to the Java community for their invaluable contributions to the development of Java and its ecosystem of libraries and resources.
-
-Feel free to customize this template to better fit the specific details and structure of your repository. Let me know if you need further assistance!
