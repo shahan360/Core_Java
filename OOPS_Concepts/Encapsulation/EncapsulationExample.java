@@ -43,3 +43,20 @@ public class EncapsulationExample {
     }
 }
     
+
+/*
+ * Access Modifiers Table:
+ * | Modifier   | Class | Package |Subclass | World |
+ * |------------|-------|---------|---------|-------|
+ * | public     |   Y   |    Y    |    Y    |   Y   |
+ * | protected  |   Y   |    Y    |    Y    |   N   |
+ * | no modifier|   Y   |    Y    |    N    |   N   |
+ * | private    |   Y   |    N    |    N    |   N   |
+ * This table summarizes the visibility of class members based on the access modifiers used.
+ * 
+ * Access modifier descriptions:
+ * - public: The member is accessible from any other class.
+ * - protected: The member is accessible within its own package and by subclasses.
+ * - no modifier (default): The member is accessible only within its own package.
+ * - private: The member is accessible in the same package and subclasses in any outside package, but not in other classes.
+ */
